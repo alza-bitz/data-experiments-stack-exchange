@@ -8,7 +8,7 @@ The included source code is provided to support example #4 in the following Cloj
 
 ## Credits
 
-Based largely on the following blog post, with modifications to use [Sparkling](https://github.com/gorillalabs/sparkling) instead of [Flambo](https://github.com/yieldbot/flambo):
+Based largely on the following blog post, with modifications to use [Sparkling](https://github.com/gorillalabs/sparkling) instead of [Flambo](https://github.com/yieldbot/flambo), and a Docker-based Spark on YARN environment:
 
 [wtfleming.github.io/2015/07/07/exploring-stack-exchange-database-dumps-with-spark-and-flambo](wtfleming.github.io/2015/07/07/exploring-stack-exchange-database-dumps-with-spark-and-flambo)
 

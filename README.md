@@ -8,13 +8,13 @@ The included source code is provided to support example #4 in the following Cloj
 
 ## Credits
 
-Based largely on the following blog post, with modifications to use Sparkling instead of Flambo:
+Based largely on the following blog post, with modifications to use [Sparkling](https://github.com/gorillalabs/sparkling) instead of [Flambo](https://github.com/yieldbot/flambo):
 
 [wtfleming.github.io/2015/07/07/exploring-stack-exchange-database-dumps-with-spark-and-flambo](wtfleming.github.io/2015/07/07/exploring-stack-exchange-database-dumps-with-spark-and-flambo)
 
 ## Dependencies
 
-- Leiningen
+- Leiningen (for Clojure build and REPL)
 - Docker
 
 ## Usage
@@ -66,7 +66,7 @@ A Docker-based Spark on YARN environment, in this case..
 
 	spark-submit --class alzatech.data_exp_stack_exchange.etl_posts target/data-experiments-stack-exchange-0.1.0-SNAPSHOT-standalone.jar file:///mnt/data-experiments-stack-exchange/data/raw/posts file:///mnt/data-experiments-stack-exchange/data/cleansed/posts
 
-### Execute Some Spark Queries
+### Execute Spark Queries
 
 Start a Clojure REPL and execute the code in `repl_example_4.clj`
 

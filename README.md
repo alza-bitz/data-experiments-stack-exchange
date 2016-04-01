@@ -72,4 +72,7 @@ Start a Clojure REPL and execute the code in `repl_example_4.clj`
 
 ## License
 
-FIXME
+Copyright © 2016 Alex Coyle
+
+Distributed under the Eclipse Public License either version 1.0 or (at
+your option) any later version.

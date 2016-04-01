@@ -1,6 +1,6 @@
 (defproject data-experiments-stack-exchange "0.1.0-SNAPSHOT"
-  :description "Example of using Spark and Sparkling"
-  :url "http://example.com/FIXME"
+  :description "Various data processing experiments with Apache Spark, using archived Stack Exchange data"
+  :url "https://github.com/alzadude/data-experiments-stack-exchange"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :profiles {:dev {:aot :all}

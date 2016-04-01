@@ -32,6 +32,12 @@
 (defn register-as-table [rdd table-name]
   (.registerAsTable rdd table-name))
 
+;; DataFrame
+(defn register-temp-table
+  "Registers this dataframe as a temporary table using the given name."
+  [df table-name]
+  (.registerTempTable df table-name))
+
 (def print-schema (memfn printSchema))
 
 ;; ## Row
